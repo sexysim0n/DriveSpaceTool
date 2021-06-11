@@ -1,0 +1,132 @@
+* {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Consolas";
+    -fx-background-color: #000000;
+}
+
+.checkbox {
+    selected-box-color: #ffffff;
+    box-color: #ffffff;
+    mark-color: #000000;
+}
+
+.checkbox .box {
+    -fx-background-color: #000;
+    -fx-border-color: #fff;
+    -fx-border-radius: 0px;
+}
+
+.checkbox:selected .mark {
+    -fx-background-color: white;
+}
+
+.checkbox:selected .box {
+    -fx-background-color: #C7641E;
+}
+
+.button {
+    -fx-border-color: #C7641E;
+    -fx-border-radius: 0;
+}
+
+.button, .checkbox {
+    -fx-border-insets: 5;
+    -fx-cursor: hand;
+    -fx-padding: 5;
+}
+
+.text {
+    -fx-font-size: 13;
+    -fx-padding: 5;
+}
+
+.tab{
+    -fx-background-color: #202020;
+}
+
+.textfield {
+    -fx-border-insets: 5;
+    -fx-padding: 5;
+    -fx-font-size: 13;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 0;
+    -fx-border-color: #505050;
+}
+
+.toggle-button {
+    -fx-border-insets: 5 0 0 0;
+    -fx-padding: 5;
+    -fx-font-size: 13;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 0;
+    -fx-border-color: #ffffff;
+}
+
+.spaceleft {
+    -fx-border-insets: 5 0 0 5;
+}
+
+.textfield:focused {
+    -fx-border-insets: 5;
+    -fx-border-radius: 0;
+    -fx-border-color: #ffffff;
+}
+
+.progress {
+	-fx-text-fill: #ffffff;
+
+}
+
+.toggle-button {
+    -fx-text-color: #fff;
+    -fx-border-radius: 0;
+    -fx-border-color: #ffffff;
+    -fx-cursor: hand;
+    -fx-padding: 5;
+}
+
+.toggle-button .dot {
+    visibility: hidden;
+}
+
+.toggle-button:selected  {
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #C7641E;
+    -fx-underline: true;
+}
+
+.combo-box-base:showing{
+    -fx-color: -fx-pressed-base;
+}
+
+.combo-box-base:focused {
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-radius: 6.4, 4, 5, 3;
+    -fx-background-insets: -1.4, 0, 1, 2;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+    -fx-text-fill: ffffff;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: black;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #505050;
+    -fx-background-radius: 0;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+}
